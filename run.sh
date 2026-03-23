@@ -11,4 +11,7 @@ fi
 
 # Safe to continue — already was up to date
 
-echo "Start"
+echo "Start conda environment"
+source /home/training/miniforge3/etc/profile.d/conda.sh
+conda activate mark
+jupyter lab
